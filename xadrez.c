@@ -10,6 +10,9 @@ int main() {
     const int movimento = 5;
     const int movimentoRainha = 8;
 
+    int movimentoCavalo = 2;
+    char baixo[6] = "Baixo", esquerda[9] = "Esquerda";
+
     rainha = 0;
     bispo = 0;
     
@@ -40,8 +43,16 @@ int main() {
     }
 
     // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+    for(cavalo = 0; cavalo < movimentoCavalo; cavalo++){
+        printf("\nEste é um exemplo de movimento do cavalo em um jogo de xadrez \n");
+        printf("%s, %s, ", baixo, baixo);
+        
+        while (cavalo = 2)
+        {
+            printf(esquerda);
+            break;            
+        }
+    }
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
     // Sugestão: Substitua as movimentações das peças por funções recursivas.
